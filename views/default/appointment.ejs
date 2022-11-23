@@ -1,0 +1,216 @@
+<%- include('../partials/kmcHeader') %>
+
+    <!-- hero-area start -->
+    <section class="breadcrumb-bg pt-200 pb-180" data-background="img/page/page-bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 col-md-9 col-12">
+                    <div class="page-title">
+                        <p class="small-text pb-15">We are here for your care.</p>
+                        <h1>Appointment</h1>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 d-flex justify-content-start justify-content-md-end align-items-center">
+                    <div class="page-breadcumb">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb ">
+                                <li class="breadcrumb-item">
+                                    <a href="/">Home</a>
+                                </li>
+                                <li class="breadcrumb-item active" aria-current="page">Appointment</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- hero-area end -->
+    <!-- about-area start -->
+    <section class="about-area pt-120 pb-90">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-5">
+                    <div class="about-left-side pos-rel mb-30">
+                        <div class="about-front-img pos-rel">
+                            <img src="images/team/us.jpg" alt="">
+                            <a class="popup-video about-video-btn white-video-btn" href="https://www.youtube.com/watch?v=I3u3lFA9GX4"><i class="fas fa-play"></i></a>
+                        </div>
+                        <div class="about-shape">
+                            <img src="img/about/about-shape.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-7">
+                    <div class="about-right-side pt-55 mb-30">
+                        <div class="about-title mb-20">
+                            <h5>About Us</h5>
+                            <h1>About KaNyamazane Medical Centre.</h1>
+                        </div>
+                        <div class="about-text mb-50">
+                            <p>KaNyamazane Medical Centre is a Private Medical Practice that takes pride in providing exclusive healthcare services to the local community. We are located in KaNyamazane. Our nurses do primarily the childhood expanded Immunization
+                                Program and Antenatal Care Clinic.</p>
+                        </div>
+                        <div class="our-destination">
+                            <div class="single-item mb-30">
+                                <div class="mv-icon f-left">
+                                    <img src="img/about/destination-icon-1.png" alt="">
+                                </div>
+                                <div class="mv-title fix">
+                                    <h3>Our Mission</h3>
+                                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+                                </div>
+                            </div>
+                            <div class="single-item">
+                                <div class="mv-icon f-left">
+                                    <img src="img/about/destination-icon-2.png" alt="">
+                                </div>
+                                <div class="mv-title fix">
+                                    <h3>Our Vission</h3>
+                                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about-area end -->
+    <!-- calculate-area start -->
+    <section class="appointment-area appointment-area-3 pos-rel pt-115 pb-120" data-background="img/appoinment/appointment-bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-7 col-lg-8">
+                    <div class="service-widget mb-50">
+                        <div class="widget-title-box mb-30">
+                            <h3 class="widget-title">Get Some Advice?</h3>
+                        </div>
+                        <form class="service-contact-form" action="/appointment" method="post">
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <div class="contact-input contact-icon contact-user mb-20">
+                                        <input type="text" name="name" placeholder="Enter your name">
+                                    </div>
+                                </div>
+                                <div class="col-xl-12">
+                                    <div class="contact-input contact-icon contact-user mb-20">
+                                        <input name="lastName" type="text" placeholder="Enter your Last Name">
+                                    </div>
+                                </div>
+                                <div class="col-xl-12">
+                                    <div class="contact-input contact-icon contact-mail mb-20">
+                                        <input name="email" type="text" placeholder="Enter your email">
+                                    </div>
+                                </div>
+                                <div class="col-xl-12">
+                                    <div class="contact-input contact-icon contact-mail mb-20">
+                                        <input name="appointDate" type="text" placeholder="Enter your Appointment Date">
+                                    </div>
+                                </div>
+                                <div class="col-xl-12">
+                                    <div class="contact-input contact-icon contact-mail mb-20">
+                                        <input name="phone" type="text" placeholder="Enter your phone number">
+                                    </div>
+                                </div>
+                                <div class="col-xl-12">
+                                    <div class="contact-input contact-icon contact-mail mb-20">
+                                        <input name="specialRequest" type="text" placeholder="Enter your message">
+                                    </div>
+                                </div>
+                                <div class=" col-xl-12 ">
+                                    <div class="contact-input contact-icon contact-hourglass ">
+                                        <select name="dept " id="service-option ">
+                                            <option value="Rehab ">Rehabilation</option>
+                                            <option value="x-ray ">X-Ray</option>
+                                            <option value="Surgery ">Surgery</option>
+                                            <option value="Circumcision ">Male Circumcision</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="ser-form-btn text-center mt-40 ">
+                            <a data-animation="fadeInLeft " data-delay=".6s " type="submit " class="btn btn-icon ml-0 " style="animation-delay: 0.6s; " tabindex="0 "><span>+</span>Request for call</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- calculate-area end -->
+    <!-- latest-news-area start -->
+    <section class="latest-news-area pt-115 mb-5 pb-20 ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-xl-6 col-lg-7 ">
+                    <div class="section-title pos-rel mb-75 ">
+                        <div class="section-icon ">
+                            <img class="section-back-icon back-icon-left " src="img/section/section-back-icon.png " alt=" ">
+                        </div>
+                        <div class="section-text pos-rel ">
+                            <h5>News</h5>
+                            <h1>Get Every Single Updates Here.</h1>
+                        </div>
+                        <div class="section-line pos-rel ">
+                            <img src="img/shape/section-title-line.png " alt=" ">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-5 d-none d-lg-block ">
+                    <div class="section-button text-right pt-80 ">
+                        <a data-animation="fadeInLeft " data-delay=".6s " href="/blogs " class="btn btn-icon ml-0 "><span>+</span>our blog</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-xl-4 col-lg-6 col-md-6 ">
+                    <div class="latest-news-box mb-30 ">
+                        <div class="latest-news-thumb mb-35 ">
+                            <img src="images/blog/graduation.jpg " alt=" ">
+                        </div>
+                        <div class="latest-news-content ">
+                            <div class="news-meta mb-10 ">
+                                <span><a href="# " class="news-tag ">Featured on MP News,</a></span>
+                                <span><a href="# " class="news-tag ">Rehabilation</a></span>
+                            </div>
+                            <h3><a href="https://mpumalanganews.co.za/389243/kanyamazane-medical-centre-helps-combat-addiction/ ">Celebrating with our KaNyamazane youth as they break-free from drug addiction</a></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 ">
+                    <div class="latest-news-box mb-30 ">
+                        <div class="latest-news-thumb mb-35 ">
+                            <div class="post-video embed-responsive embed-responsive-16by9 "><iframe class="embed-responsive-item " src="https://www.youtube.com/embed/lSqPpQHnnWA "></iframe></div>
+                        </div>
+                        <div class="latest-news-content ">
+                            <div class="news-meta mb-10 ">
+                                <span><a href="# " class="news-tag ">Covid-19,</a></span>
+                                <span><a href="# " class="news-tag ">Medicine</a></span>
+                            </div>
+                            <h3>
+                                <a href="# ">Facts about 5G and its link to Covid-19.</a>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 ">
+                    <div class="latest-news-box mb-30 ">
+                        <div class="latest-news-thumb mb-35 ">
+                            <div class="post-video embed-responsive embed-responsive-16by9 "> <iframe width="560 " height="315 " src="https://www.youtube.com/embed/f8Gq_YHBsUo " title="YouTube video player " frameborder="0 " allow="accelerometer; autoplay;
+                                            clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe></div>
+                        </div>
+                        <div class="latest-news-content ">
+                            <div class="news-meta mb-10 ">
+                                <span><a href="# " class="news-tag ">Medical,</a></span>
+                                <span><a href="# " class="news-tag ">History</a></span>
+                            </div>
+                            <h3><a href="/blog ">What it took Dr Mavuso to attain his success.</a></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- latest-news-area end -->
+    <%- include('../partials/kmcFooter') %>
