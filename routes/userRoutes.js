@@ -190,7 +190,7 @@ router.get('/gallery', (req, res) => {
 });
 
 router.get('/blog', (req, res) => {
-    res.render('default/blog')
+    res.render('default/posts')
 });
 
 //PRESS
